@@ -3,19 +3,6 @@ description: Suggest an idea for this project
 labels:
   - feature request
 body:
-  - type: dropdown
-    id: product
-    attributes:
-      label: For?
-      multiple: true
-      options:
-        - S&Box
-        - Hammer
-        - Material Editor
-        - Source Film Maker
-        - Other
-    validations:
-      required: true
   - type: textarea
     id: what-cant-you-do
     attributes:
